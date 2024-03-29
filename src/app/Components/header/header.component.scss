@@ -1,0 +1,228 @@
+.mat-toolbar{
+    background-color: #A03037;
+    width: 100%;
+    height: 66px !important;
+    background: #A03037 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin:0px auto;
+    display:flex;
+
+}
+
+
+.image{
+    width: 31px;
+    height: 24px;
+    margin-left:164px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.image span{
+    // color: white;
+    padding-left: 5px;
+    width: 91px;
+    height: 24px;
+    text-align: center;
+    font: normal normal normal 20px/26px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.middle-section{
+    margin-left: 200px;
+    width:490px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+button{
+    background-color: white;
+    outline: none;
+    border:none;
+}
+.middle-section input{
+    outline: none;
+    border:none;
+}
+.search-icon{
+    place-content: center;
+}
+
+.wishlist-icon{
+    margin-left: 50px;
+    margin-top: 17px;
+}
+
+// .signup{
+//     margin-top: 200px;
+//     height:100px;
+//     width:50px;
+//     border:1px solid;
+// }
+
+#dialog{
+    margin-top: 35px;
+    margin-left:900px;
+    height: 122px;
+    width:200px;
+    border:none;
+    border:1px solid #878787;
+}
+
+.welcome{
+    font: normal normal medium 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+}
+
+.text{
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+}
+
+.button button{
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    border:1px solid #A03037;
+    color: #A03037;
+    padding: 4px;
+    margin-bottom: 7px;
+    
+}
+
+.orders{
+    padding-top: 10px;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+}
+.orders span{
+    font-size: 13px;
+}
+
+.whishlist span{
+    font-size: 13px;
+}
+
+.whishlist{
+    padding-top: 5px;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+}
+
+.lprofile{
+    padding-top: 5px;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+}
+.lprofile span{
+    font-size: 13px;
+}
+
+.lorders{
+    padding-top: 10px;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+}
+.lorders span{
+    font-size: 13px;
+}
+
+.lwhishlist span{
+    font-size: 13px;
+}
+
+.lwhishlist{
+    padding-top: 10px;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #878787;
+}
+
+.lbutton button{
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    border:1px solid #A03037;
+    color: #A03037;
+    padding: 4px 20px;
+    margin-bottom: 7px;
+    
+}
+
+.wishlist-icon p{
+    // border:1px solid;
+    font-size: 10px;
+    color: white;
+    // padding-top: 0px;
+    height: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.wishlist-icon{
+    cursor:pointer;
+}
+
+.profile-icon{
+    margin-left: 150px;
+    margin-top: 21px;
+    color:white !important;
+}
+
+.profile-icon p{
+    // border:1px solid;
+    font-size: 10px;
+    color: white;
+    // padding-top: 0px;
+    height: 15px;
+    position: relative;
+    bottom: 13px;
+}
+
+.image:hover{
+    cursor: pointer;
+}
+.profile-icon:hover{
+    cursor:pointer;
+}
+
+.search-bar{
+    width:450px;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.orders{
+    cursor: pointer;
+}
+
+.whishlist{
+    cursor: pointer;
+}
+
+.lorders:hover{
+    cursor: pointer;
+}
+
+.lwhishlist:hover{
+    cursor:pointer;
+}
+
+.lprofile:hover{
+    cursor: pointer;
+}
+
+.lbutton button:hover{
+    cursor: pointer;
+}

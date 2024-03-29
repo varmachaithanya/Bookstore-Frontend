@@ -1,0 +1,36 @@
+.book-display{
+    padding-top:15px;
+    // border:1px solid;
+    width:1155px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.card-container{
+    width: 78%;
+    // margin:0px auto;
+    // border:1px solid red;
+
+
+}
+
+.book-sort{
+    float:right;
+
+}
+
+.book-filter{
+    padding-bottom: 15px;
+}
+
+.book-count span{
+    font-weight: 500;
+}
+
+.main-div {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

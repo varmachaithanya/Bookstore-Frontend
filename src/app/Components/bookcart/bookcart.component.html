@@ -1,0 +1,46 @@
+<div class="main-div">
+    <div class="book-display">
+    <div class="book-filter">
+        <span class="book-count"><span>Books</span>({{booklenght}} items)</span>
+        <span class="book-sort">
+            <select name="sort" id="sort">
+                <option value="relevance">Sort by relevance</option>
+                <option value="priceHighToLow">Price: high to low</option>
+                <option value="priceLowToHigh">Price: low to high</option>
+                <option value="newestArrivals">Newest Arrivals</option>
+            </select>
+        </span>
+        
+</div>
+</div>
+<div class="book-cart" >
+   
+    <div class="books" *ngFor="let note of newdata | searchpipecomponent:searchString">
+    <div class="book-image" (click)="navigatetobook(note.id)">
+        <img src="{{note.image}}" width="105px" height="115px">
+    </div>
+
+    
+    <div class="book-title">
+        {{note.title}}
+
+    </div>
+    <div class="book-author">
+        {{note.author}}
+    </div>
+    <div class="book-rating">
+        <span class="rating">4.5 &#9733;</span><span class="rating-count">(20)</span>
+
+    </div>
+    <div class="book-price">
+        Rs.{{note.price}}<span>Rs.2000</span>
+
+    </div>
+    </div>
+
+
+
+
+
+</div>
+</div>
